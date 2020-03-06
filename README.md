@@ -5,7 +5,7 @@ Version 2 002
 
 This is an enhanced and experimental version of qmfm version 1.
 This version support comments and emblems with some limitation: 
-they will be loose after all file operations except renaming within 
+they will be lost after all file operations except renaming within 
 this program; the comments and emblems are stored with the item full path.
 This version support file, not folder, filtering; a combobox store all 
 the opened folders; each element in the main view can show additional custom text 
