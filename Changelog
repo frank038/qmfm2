@@ -1,3 +1,6 @@
+* 20200308
+- added a list view for the current folder as option
+- improvements
 * 20200306
 - improvements in the create_archive.py, 7z_extract.py e qmfm2.py
 * 20200305
