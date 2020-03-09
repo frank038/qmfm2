@@ -1,7 +1,7 @@
 # qmfm2
 File manager for Linux in PyQt5.
 
-Version 2 003
+Version 2 004
 
 This is an enhanced and experimental version of qmfm version 1.
 This version support comments and emblems with some limitation: 
