@@ -4,7 +4,7 @@ File manager for Linux in PyQt5.
 Version 2 008 - B
 
 This is an enhanced and experimental version of qmfm version 1.
-This version support comments and emblems with some limitation: 
+This version support comments and emblems with some limitations: 
 they will be lost after all file operations except renaming within 
 this program; the comments and emblems are stored with the item full path.
 This version support file, not folder, filtering; a combobox store all 
