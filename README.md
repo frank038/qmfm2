@@ -7,7 +7,7 @@ This is an enhanced and experimental version of qmfm version 1.
 This version support comments and emblems with some limitations: 
 they will be lost after all file operations except renaming within 
 this program; the comments and emblems are stored with the item full path.
-This version support file, not folder, filtering; a combobox store all 
+This version support file, not folder, filtering; a combobox store the path of all 
 the opened folders; each element in the main view can show additional custom text 
 by modifying the custom_icon_text.py module; the mimetype info and label can be 
 fully customized by modifying the custom_text.py module.
