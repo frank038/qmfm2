@@ -4,7 +4,7 @@ File manager for Linux in PyQt5.
 Version 2 008 - B
 
 This is an enhanced and experimental version of qmfm version 1.
-This version support comments and emblems with some limitations: 
+This version supports comments and emblems with some limitations: 
 they will be lost after all file operations except renaming within 
 this program; the comments and emblems are stored with the item full path.
 This version support file, not folder, filtering; a combobox store the path of all 
@@ -56,3 +56,10 @@ new tab, and files opened with the default program, if any, with a double click.
 interrupted, only the following ones can be interrupted.
 - Delete (canc) key: selected items into the recycle bin if choosen so in the config file.
 
+Known issues:
+- in the /home directory is onto another partition the following change is needed for the trashcan to work properly:
+in the file qmfm2.py - line 6415,
+from
+if mount_point == "/":
+to
+if mount_point == "/" or mount_point == "/home":
