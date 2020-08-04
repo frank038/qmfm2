@@ -57,7 +57,7 @@ interrupted, only the following ones can be interrupted.
 - Delete (canc) key: selected items into the recycle bin if choosen so in the config file.
 
 Known issues:
-- in the /home directory is onto another partition the following change is needed for the trashcan to work properly:
+- in the /home directory is onto another disk partition the following change is needed for the trashcan to work properly:
 in the file qmfm2.py - line 6415,
 from
 if mount_point == "/":
