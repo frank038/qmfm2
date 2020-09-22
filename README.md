@@ -1,7 +1,7 @@
 # qmfm2
 File manager for Linux in PyQt5.
 
-Version 2 008 - B
+Version 2 009
 
 This is an enhanced and experimental version of qmfm version 1.
 This version supports comments and emblems with some limitations: 
@@ -55,11 +55,3 @@ new tab, and files opened with the default program, if any, with a double click.
 - Progress dialog during copying operations: the current copying operation cannot be
 interrupted, only the following ones can be interrupted.
 - Delete (canc) key: selected items into the recycle bin if choosen so in the config file.
-
-Known issues:
-- in the /home directory is onto another disk partition the following change is needed for the trashcan to work properly:
-in the file qmfm2.py - line 6415,
-from
-if mount_point == "/":
-to
-if mount_point == "/" or mount_point == "/home":
