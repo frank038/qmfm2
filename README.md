@@ -55,3 +55,7 @@ new tab, and files opened with the default program, if any, with a double click.
 - Progress dialog during copying operations: the current copying operation cannot be
 interrupted, only the following ones can be interrupted.
 - Delete (canc) key: selected items into the recycle bin if choosen so in the config file.
+
+![My image](https://github.com/frank038/qmfm2/blob/master/screenshot.png)
+
+![My image](https://github.com/frank038/qmfm2/blob/master/screenshot2.png)
