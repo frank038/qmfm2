@@ -1,7 +1,7 @@
 * 20201019
 - Paste and Merge (from contextual menu):
   - add the 'Backup' option: the existent files at destination will be backuped (using the choised method)
-  - fixed the numbered suffix bug when 'Automatic' is chosed
+  - fixed the numbered suffix bug when 'Automatic' is chosen
 - fixed some various minor issues
 * 20200922
 - recycle bin, if HOME is in another partition
