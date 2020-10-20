@@ -59,3 +59,7 @@ interrupted, only the following ones can be interrupted.
 ![My image](https://github.com/frank038/qmfm2/blob/master/screenshot.png)
 
 ![My image](https://github.com/frank038/qmfm2/blob/master/screenshot2.png)
+
+This is the dialog that appears when the 'Paste and Merge' action is called.
+The difference between 'Automatic' and 'Backup': both add a suffix to a file or folder if another item with the same name already exist at destination, Automatic add it to the items to be copied, Backup add it to the items at destination.
+![My image](https://github.com/frank038/qmfm2/blob/master/screenshot3.png)
